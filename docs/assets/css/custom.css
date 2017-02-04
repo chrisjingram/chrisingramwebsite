@@ -1,0 +1,22 @@
+body{
+  background: #18191F;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#sidebar{
+  background: #18191F;
+}
+
+#intro{
+  background: #fdfdfd;
+  color: #222;
+}
+  #intro h1{
+    color: #222;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+  }
+
+.spotlights > section > .image:before {
+  background: #18191F;
+}
