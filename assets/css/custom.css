@@ -8,11 +8,11 @@ body{
 }
 
 #intro{
-  background: #fdfdfd;
-  color: #222;
+  background: #202129;
+  color: #fdfdfd;
 }
   #intro h1{
-    color: #222;
+    color: #fdfdfd;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
   }
