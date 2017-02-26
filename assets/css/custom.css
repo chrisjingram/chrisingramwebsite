@@ -16,7 +16,21 @@ body{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
   }
+  #intro .icons{
+    font-size: 40px;
+  }
 
 .spotlights > section > .image:before {
   background: #18191F;
+}
+
+#three{
+  background: #202129;
+}
+  #three .icons{
+    font-size: 40px;
+  }
+
+#footer{
+  background: #202129;
 }
