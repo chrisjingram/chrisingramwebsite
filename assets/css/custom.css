@@ -25,6 +25,7 @@ body{
     padding-bottom: 4em;
   }
   #intro p{
+    max-width: 600px;
     margin-bottom: 1em;
   }
 
