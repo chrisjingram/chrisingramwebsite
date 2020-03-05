@@ -1,0 +1,82 @@
+section#projects{
+  .project{
+    padding: 2rem;
+    h2{
+      font-family: "Muli", sans-serif;
+      font-size: 2rem;
+      color: white;
+      @include lg{
+        font-size: 3rem;
+      }
+    }
+    p{
+      font-size: 1.2rem;
+      color: white;
+      @include lg{
+        font-size: 1.5rem;
+      }
+    }
+    img{
+      width: 100%;
+    }
+    @include md{
+      display: flex;
+    }
+    @include lg{
+      padding: 4rem;
+    }
+    .project-img{
+      @include lg{
+        padding: 0 5rem;
+      }
+    }
+    .project-info{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 2rem;
+      @include md{
+        margin-bottom: 0;
+      }
+      //.button{
+      //  align-self: flex-start;
+      //}
+    }
+    .project-links{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      a{
+        margin-bottom: 1rem;
+        @include lg{
+          margin-right: 1rem;
+        }
+      }
+      .app-store-play-store{
+        height: 3.75rem;
+        img{
+          height: 100%;
+          width: auto;
+        }
+      }
+      @include lg{
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+      }
+    }
+  }
+  .project.hacw{
+    background: #0F0E16;
+    color: white;
+  }
+  .project.active10{
+    background: #01A5A7;
+    color: white;
+  }
+  .project.etcetera{
+    background: #242A7D;
+    color: white;
+  }
+
+}

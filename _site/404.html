@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Muli:200,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js"></script>
+    <script src="/js/main.js"></script>
+  </head>
+  <body>
+    <header>
+  <section id="navbar">
+    <h1 class="logo"><a href="/">Octave | Mobile App Development London</a></h1>
+    <nav>
+      <ul>
+<!--        <li><a href="#">About</a></li>-->
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="phone-number"><a href="tel:+447875488721"><i class="material-icons">phone</i><span>07875 488721</span></a></li>
+      </ul>
+    </nav>
+    <a href="javascript:toggleFullscreenMenu()" class="hamburger-button">
+      <i class="material-icons">menu</i>
+    </a>
+  </section>
+</header>
+<div id="fullscreen-menu">
+  <a href="javascript:toggleFullscreenMenu()" class="close-button"><i class="material-icons">close</i></a>
+  <ul>
+    <li><a href="/">Home</a></li>
+<!--    <li><a href="#">About</a></li>-->
+    <li><a href="#projects" onclick="toggleFullscreenMenu()">Work</a></li>
+    <li><a href="#contact" onclick="toggleFullscreenMenu()">Contact</a></li>
+  </ul>
+</div>
+
+    <style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+
+<div class="container">
+  <h1>404</h1>
+
+  <p><strong>Page not found :(</strong></p>
+  <p>The requested page could not be found.</p>
+</div>
+
+  </body>
+</html>
