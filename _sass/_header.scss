@@ -45,7 +45,7 @@ section#navbar{
     background: white;
     h1.logo{
       a{
-        background: url(/assets/images/octave-dark.svg) center center no-repeat;
+        background: url(/assets/images/chrisingram-dark.svg) center center no-repeat;
         background-size: 100%;
         text-indent: -9999px;
         display: block;
@@ -71,13 +71,13 @@ section#navbar{
     }
   }
   h1.logo{
-    margin: -0.35rem 0 0 0;
-    width: 7rem;
+    margin: 0;
+    width: 11rem;
     @include md{
       margin-left: 2rem;
     }
     a{
-      background: url(/assets/images/octave-white.svg) center center no-repeat;
+      background: url(/assets/images/chrisingram-white.svg) center center no-repeat;
       background-size: 100%;
       text-indent: -9999px;
       display: block;
