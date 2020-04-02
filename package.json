@@ -1,0 +1,15 @@
+{
+  "name": "jekyll-webpack-base",
+  "version": "1.0.0",
+  "main": "js/index.js",
+  "license": "MIT",
+  "author": "MadeBySphere",
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  }
+
+}
