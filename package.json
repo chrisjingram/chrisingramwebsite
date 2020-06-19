@@ -1,7 +1,7 @@
 {
   "name": "jekyll-webpack-base",
   "version": "1.0.0",
-  "main": "src/js/index.js",
+  "main": "src/js/main.js",
   "license": "MIT",
   "author": "MadeBySphere",
   "devDependencies": {
@@ -9,9 +9,14 @@
     "@babel/preset-env": "^7.9.0",
     "autoprefixer": "^9.7.5",
     "babel-loader": "^8.1.0",
+    "browser-sync": "^2.26.7",
+    "clean-webpack-plugin": "^3.0.0",
     "concurrently": "^5.1.0",
     "css-loader": "^3.4.2",
     "cssnano": "^4.1.10",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.0.4",
+    "material-design-icons": "^3.0.1",
     "mini-css-extract-plugin": "^0.9.0",
     "postcss-loader": "^3.0.0",
     "sass": "^1.26.3",
@@ -20,10 +25,17 @@
     "webpack-cli": "^3.3.11"
   },
   "scripts": {
-    "build": "webpack && bundle exec jekyll build",
-    "start": "webpack && concurrently -k -n \"WEBPACK,JEKYLL\" -c \"bgBlue.bold,bgRed.bold\" \"webpack -w\" \"bundle exec jekyll serve\""
+    "build": "webpack --mode production && bundle exec jekyll build",
+    "build-demo": "webpack --mode production && bundle exec jekyll build --config _config.yml,_config.demo.yml",
+    "netlify": "rm -rf dist/* && webpack && concurrently -k -n \"WEBPACK,JEKYLL\" -c \"bgBlue.bold,bgGreen.bold\" \"webpack -w\" \"bundle exec jekyll serve --config _config.yml,_config.local.yml\"",
+    "start": "rm -rf dist/* && webpack && concurrently -k -n \"WEBPACK,JEKYLL,BROWSERSYNC\" -c \"bgBlue.bold,bgGreen.bold,bgCyan.bold\" \"webpack -w\" \"bundle exec jekyll build --watch --config _config.yml,_config.local.yml\" \"browser-sync start -s _site -f _site --extensions html\""
   },
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "aos": "^3.0.0-beta.6",
+    "luxon": "^1.24.1",
+    "node-fetch": "^2.6.0",
+    "normalize.css": "^8.0.1",
+    "smoothscroll-polyfill": "^0.4.4",
+    "swiper": "^5.3.6"
   }
 }

@@ -6,3 +6,5 @@ vendor
 .idea
 node_modules
 dist
+_layouts/default.html
+.DS_Store
