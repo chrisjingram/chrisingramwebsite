@@ -1,6 +1,14 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+link_url: ""
+asset_url: ""
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+title: "jekyll-webpack-base" # the name of your site, e.g. ACME Corp.
 exclude:
   - src
   - node_modules
+  - package.json
+  - postcss.config.js
+  - webpack.config.js
+  - yarn.lock
+include:
+  - _pages
