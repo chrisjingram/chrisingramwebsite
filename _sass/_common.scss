@@ -36,6 +36,13 @@
   }
 }
 
+.desktop{
+  display: none;
+  @include md{
+    display: inline;
+  }
+}
+
 
 h2{
   font-family: "Rubik", sans-serif;
