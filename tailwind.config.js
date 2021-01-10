@@ -29,7 +29,8 @@ module.exports = {
         blue: {
           dark: '#000230',
           light: '#141543'
-        }
+        },
+        grey: '#b2b3c2'
       },
       lineHeight: {
         'chill': '1.73'

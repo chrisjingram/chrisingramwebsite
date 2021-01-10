@@ -1,0 +1,21 @@
+.hero--image-container{
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 5% auto;
+  }
+  @screen lg{
+    @apply absolute right-0 top-10;
+    height: calc(100% - 100px);
+    width: calc(365px + ((100vw - 960px) / 2));
+  }
+  @screen xl{
+    width: calc(437px + ((100vw - 1150px) / 2));
+  }
+}
+.hero--content{
+  @screen lg{
+    width: 62%;
+  }
+}

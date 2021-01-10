@@ -1,6 +1,6 @@
 header{
-  @apply bg-blue-dark text-white absolute top-0 left-0 w-full z-50 h-6 lg:h-8;
-  @apply pl-2.5;
+  @apply bg-blue-dark text-white absolute top-0 left-0 w-full z-50 h-6 lg:h-10;
+  @apply pl-2.5 lg:pl-0;
   &__fixed{
     position: fixed;
     top: 0;
