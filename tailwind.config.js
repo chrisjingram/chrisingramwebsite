@@ -44,6 +44,11 @@ module.exports = {
       lg: '992px',
       xl: '1200px'
     },
+    maxWidth: {
+      '72': '72rem',
+      '92': '92rem',
+      ...defaultTheme.maxWidth
+    },
     fontFamily: {
       mono: ['"IBM Plex Mono"', ...defaultTheme.fontFamily.mono]
     }
