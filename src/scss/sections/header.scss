@@ -1,5 +1,5 @@
 header{
-  @apply bg-blue-dark text-white absolute top-0 left-0 w-full z-50 h-8;
+  @apply bg-blue-dark text-white absolute top-0 left-0 w-full z-50 h-6 lg:h-8;
   @apply pl-2.5;
   &__fixed{
     position: fixed;
