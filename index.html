@@ -15,7 +15,7 @@ layout: default
     {% picture assets/me.jpg 7:9 south mobile: assets/me.jpg 8:9+0+100 south %}
   </div>
 </section>
-<section class="bg-blue-light px-2.5 py-5 lg:py-7">
+<section class="bg-blue-light px-2.5 py-6 lg:py-10">
   <div class="max-w-72 mx-auto grid grid-cols-2 gap-3 md:flex md:gap-0">
     <div class="logos--svg-wrapper md:mr-3 lg:mr-5">{% include svg/phe.svg %}</div>
     <div class="logos--svg-wrapper md:mr-3 lg:mr-5">{% include svg/boxmove.svg %}</div>
@@ -25,6 +25,18 @@ layout: default
 </section>
 <section class="bg-blue-light px-2.5 pb-5 lg:pb-7">
   <div class="max-w-92 mx-auto">
-    <h2 class="text-white font-medium text-3.5">Work History</h2>
+    <h2 class="text-white font-medium text-3 lg:text-3.5 mb-4">Work History</h2>
+    <div>
+      {% for item in site.data.work %}
+        <div class="mb-4 md:flex">
+          <div class="md:w-1/4 md:mr-3 lg:w-1/3 lg:mr-5">{% picture assets/work/{{item.image}} 3:2 %}</div>
+          <div class="pt-3 md:flex-1 md:pt-0">
+            <h3 class="text-white font-medium mb-0.5">{{item.company}}</h3>
+            <p class="text-white mb-1">{{item.position}}</p>
+            <p class="text-grey">{{item.description}}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </section>
