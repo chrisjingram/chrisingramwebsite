@@ -1,0 +1,9 @@
+.wrapper{
+  @apply mx-auto;
+  @screen lg{
+    max-width: 960px;
+  }
+  @screen xl{
+    max-width: 1150px;
+  }
+}

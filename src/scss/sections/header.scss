@@ -1,0 +1,24 @@
+header{
+  @apply bg-blue-dark text-white absolute top-0 left-0 w-full z-50 h-8;
+  @apply pl-2.5;
+  &__fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateY(-6rem);
+    @screen lg{
+      transform: translateY(-8rem);
+    }
+  }
+  &__fixed--on-screen{
+    transition: 0.15s ease-in;
+    transform: translateY(0rem);
+    @screen lg{
+      transform: translateY(0rem);
+    }
+  }
+}
+
+.hamburger{
+  @apply lg:hidden flex items-center h-full;
+}
