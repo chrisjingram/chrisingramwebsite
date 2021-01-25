@@ -12,3 +12,26 @@
   @apply inline-flex bg-white px-2 py-1 text-blue-dark border-2 border-white transition duration-200;
   @apply hover:bg-transparent hover:text-white;
 }
+
+a.funky-hover {
+  margin-right: 20px;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  display: block;
+  &:after{
+    content: '';
+    height: 1px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -1px;
+    z-index: 2;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.2s ease-in-out;
+    background: white;
+  }
+  &:hover:after{
+    transform: scaleX(1);
+  }
+}

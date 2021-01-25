@@ -1,6 +1,6 @@
 const spacing = () => {
   const obj = { px: '1px', 'g-sm': '2.5rem', 'g-md': '8rem' }
-  for(var i=0; i<=20; i+=0.5){
+  for(var i=0; i<=25; i+=0.5){
     obj[i.toString()] = `${i.toFixed(1)}rem`;
   }
   return obj;
@@ -42,7 +42,8 @@ module.exports = {
       sm: '576px',
       md: '768px',
       lg: '992px',
-      xl: '1200px'
+      xl: '1200px',
+      xxl: '1650px'
     },
     maxWidth: {
       '72': '72rem',
