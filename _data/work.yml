@@ -1,4 +1,5 @@
 - company: MadeBySphere
+  link: https://madebysphere.com
   position: Co-founder | April 2020 – Present
   image: madebysphere.jpg
   description: >
@@ -9,6 +10,7 @@
     - Shopify
 
 - company: Boxmove
+  link: https://boxmove.com
   position: Contract Lead Software Engineer | July 2019 – Present
   image: boxmove.jpg
   description: >
@@ -21,6 +23,7 @@
     - Postgres
 
 - company: How a Car Works
+  link: https://www.howacarworks.com
   position: Contract Mobile Engineer | October 2019 – January 2020
   image: hacw.jpg
   description: >
@@ -31,6 +34,7 @@
     - Android
 
 - company: inCase
+  link: https://www.in-case.co.uk
   position: Lead Software Engineer | April 2018 – June 2019
   image: incase.jpg
   description: >
@@ -42,6 +46,7 @@
     - Vue.js
 
 - company: Public Health England & UoS
+  link: https://www.nhs.uk/better-health/get-active/
   position: Full-stack Engineer | July 2015 - April 2018
   image: phe.jpg
   description: >
