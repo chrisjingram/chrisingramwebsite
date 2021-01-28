@@ -9,7 +9,7 @@
 }
 
 .cta{
-  @apply inline-flex bg-white px-2 py-1 text-blue-dark border-2 border-white transition duration-200;
+  @apply inline-flex bg-white px-2 py-1 font-bold text-blue-dark border-2 border-white transition duration-200;
   @apply hover:bg-transparent hover:text-white;
 }
 
