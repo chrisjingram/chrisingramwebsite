@@ -11,7 +11,7 @@ title_override: Christopher Ingram | Lead Full Stack Software Engineer
       <a href="#work-history" class="inline-flex items-center">{% include svg/arrow-down.svg %} <span class="ml-1">See work</span></a>
     </div>
     <div class="hero--image-container flex items-center flex-1">
-      {% picture assets/me.jpg 3:4 south mobile: assets/me.jpg 8:9 south %}
+      <img src="/assets/me.jpg" class="w-full block">
     </div>
   </div>
 </section>
@@ -29,7 +29,7 @@ title_override: Christopher Ingram | Lead Full Stack Software Engineer
     <div>
       {% for item in site.data.work %}
         <div class="mb-4 md:flex">
-          <div class="md:w-1/4 md:mr-3 lg:w-1/3 lg:mr-5">{% picture assets/work/{{item.image}} 3:2 %}</div>
+          <div class="md:w-1/4 md:mr-3 lg:w-1/3 lg:mr-5"><img src="/assets/work/{{item.image}}" alt="{{company}}" class="w-full"></div>
           <div class="pt-3 md:flex-1 md:pt-0">
             <h3 class="text-white font-medium mb-0.5">{{item.company}}</h3>
             <p class="text-white mb-1">{{item.position}}</p>
