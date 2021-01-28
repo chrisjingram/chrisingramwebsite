@@ -2,28 +2,53 @@
   position: Co-founder | April 2020 – Present
   image: madebysphere.jpg
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat turpis mauris suspendisse nullam cum. Ut magna gravida gravida dictum tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat turpis mauris suspendisse nullam cum. Ut magna gravida gravida dictum tortor.
+    Web development studio focusing on e-commerce design and development for D2C brands and marketplaces. Leading development and architecting solutions for a range of businesses and technologies. Overseeing and mentoring freelance engineers.
+  technologies:
+    - React
+    - Ruby on Rails
+    - Shopify
+
 - company: Boxmove
-  position: Contract Lead Software Engineer | April 2020 – Present
+  position: Contract Lead Software Engineer | July 2019 – Present
   image: boxmove.jpg
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat turpis mauris suspendisse nullam cum. Ut magna gravida gravida dictum tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat turpis mauris suspendisse nullam cum. Ut magna gravida gravida dictum tortor.
+    Building and architecting Shopify-like platform for charity-shop e-commerce, with templated storefronts, central marketplace, and in-store iPad app. Integrations with other services such as eBay. Worked with charity shop staff to design and build a simple user-centred listing process.
+  technologies:
+    - React
+    - Ruby on Rails
+    - Stimulus/Hotwire
+    - iOS
+    - Postgres
+
 - company: How a Car Works
-  position: Contract Lead Software Engineer | April 2020 – Present
+  position: Contract Mobile Engineer | October 2019 – January 2020
   image: hacw.jpg
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat turpis mauris suspendisse nullam cum. Ut magna gravida gravida dictum tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat turpis mauris suspendisse nullam cum. Ut magna gravida gravida dictum tortor.
+    Designed, built and re-launched video streaming apps taking store rating from 3.5 to 5 stars. Users can stream/download videos, save progress and purchase the full course in-app. Built custom native video player for React Native for Netflix-style experience.
+  technologies:
+    - React Native
+    - iOS
+    - Android
+
 - company: inCase
-  position: Lead Software Engineer | April 2020 – Present
+  position: Lead Software Engineer | April 2018 – June 2019
   image: incase.jpg
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat turpis mauris suspendisse nullam cum. Ut magna gravida gravida dictum tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat turpis mauris suspendisse nullam cum. Ut magna gravida gravida dictum tortor.
+    Designed and developed secure, ease-to-use, platform and templated mobile app for law firm to client communication. Multi-tenant backend, and automatic templating/publishing of mobile apps via CI.
+  technologies:
+    - iOS
+    - Laravel
+    - Ruby on Rails
+    - Vue.js
+
 - company: Public Health England & UoS
-  position: Lead Software Engineer | April 2020 – Present
+  position: Full-stack Engineer | July 2015 - April 2018
   image: phe.jpg
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat turpis mauris suspendisse nullam cum. Ut magna gravida gravida dictum tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat turpis mauris suspendisse nullam cum. Ut magna gravida gravida dictum tortor.
-
-
-
+    Led development of iOS and server architecture for PHE's walking app, Active 10. Developed algorithms to process background motion and GPS data. Developed the app for scalability and security and continued to support growth to 0.5M users. Created behaviour visualisation dashboard for decision makers to review efficacy of the project.
+  technologies:
+    - iOS
+    - Node.js
+    - Ruby on Rails
+    - Postgres
 

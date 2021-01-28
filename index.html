@@ -33,7 +33,12 @@ layout: default
           <div class="pt-3 md:flex-1 md:pt-0">
             <h3 class="text-white font-medium mb-0.5">{{item.company}}</h3>
             <p class="text-white mb-1">{{item.position}}</p>
-            <p class="text-grey">{{item.description}}</p>
+            <p class="text-grey mb-1.5">{{item.description}}</p>
+            <div>
+              {% for t in item.technologies %}
+                <span class="bg-white text-blue-dark rounded-lg px-0.5 inline-block font-medium">{{t}}</span>
+              {% endfor %}
+            </div>
           </div>
         </div>
       {% endfor %}
