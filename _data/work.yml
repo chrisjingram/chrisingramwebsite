@@ -45,7 +45,7 @@
   position: Full-stack Engineer | July 2015 - April 2018
   image: phe.jpg
   description: >
-    Led development of iOS and server architecture for PHE's walking app, Active 10. Developed algorithms to process background motion and GPS data. Developed the app for scalability and security and continued to support growth to 0.5M users. Created behaviour visualisation dashboard for decision makers to review efficacy of the project.
+    Led development of iOS and server architecture for PHE's walking app, Active 10. Developed algorithms to process background motion and GPS data. Developed the app for scalability and security and continued to support growth to 600K users. Created behaviour visualisation dashboard for decision makers.
   technologies:
     - iOS
     - Node.js
