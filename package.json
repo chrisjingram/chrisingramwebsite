@@ -36,7 +36,7 @@
     "postcss": "^8.2.4",
     "postcss-loader": "^4.1.0",
     "smoothscroll-polyfill": "^0.4.4",
-    "swiper": "^5.3.6",
+    "swiper": "^6.5.1",
     "tailwindcss": "^2.0.2"
   }
 }
