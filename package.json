@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "aos": "^3.0.0-beta.6",
-    "luxon": "^1.24.1",
+    "luxon": "^2.5.2",
     "node-fetch": "^2.6.0",
     "postcss": "^8.2.4",
     "postcss-loader": "^4.1.0",
