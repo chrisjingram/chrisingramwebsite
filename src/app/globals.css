@@ -9,4 +9,7 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .list-style-terminal {
+    list-style-type: ">"
+  }
 }

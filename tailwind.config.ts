@@ -11,6 +11,9 @@ const config: Config = {
       colors: {
         "bright-purple": {
           DEFAULT: "#1F00DE"
+        },
+        "bright-green": {
+          DEFAULT: "#1CD45B"
         }
       }
     },

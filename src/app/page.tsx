@@ -5,6 +5,13 @@ import meCircle from "../../public/images/me-circle.png";
 const P: React.FC<{ children?: ReactNode }> = ({children}) => <p className="text-base md:text-lg mb-4">{children}</p>
 const H2: React.FC<{ children?: ReactNode }> = ({children}) => <h2 className="text-base md:text-lg mb-4 text-bright-purple font-bold">{children}</h2>
 
+const ExpItem: React.FC<{ companyName: string, tag: string, description: string }> = ({ companyName, tag, description }) => (
+  <li className="text-base font-bold md:text-lg pl-[1ch]">
+    <div className="font-bold">{companyName}&nbsp;<span className="text-bright-green">[{tag}]</span></div>
+    <p className="font-normal">{description}</p>
+  </li>
+)
+
 export default function Home() {
   return (
     <div className="px-6">
@@ -26,6 +33,12 @@ export default function Home() {
             <H2>What do you do?</H2>
             <P>I co-run Basejam, a platform for finding and booking company retreat venues.</P>
             <P><strong>I help startups and indie businesses</strong> improve their technical architecture, confidently hire a technical team, and automate their marketing processes.</P>
+            <H2>Who do you work with?</H2>
+            <P>My freelance clients are usually angel-funded startups or bootstrapped indie businesses.</P>
+            <H2>Experience</H2>
+            <ul className="list-style-terminal pl-[1ch]">
+              <ExpItem companyName="Basejam" tag="co-founded" description="The go-to platform for company retreat venues" />
+            </ul>
           </article>
           <aside className="md:flex-1">
             <P>I’m currently providing free 1-hour consultancy sessions on technical architecture, AWS, or marketing automation.</P>
