@@ -42,7 +42,7 @@ const GetInTouchItem: React.FC<{ icon: IconDefinition, name: string, url: string
 export default function Home() {
   return (
     <div className="px-6">
-      <div className="max-w-[1150px] mx-auto">
+      <div className="max-w-[1150px] mx-auto mb-8">
         <header className="pt-9 md:pt-[72px] mb-6 md:mb-8">
           <div className="flex items-center">
             <Image src={meCircle} alt="Profile picture for Chris Ingram" className="w-[96px] md:w-[124px] mr-5" />
@@ -95,17 +95,17 @@ export default function Home() {
             <H2>Software engineering 🛠️</H2>
             <P>With experience in many languages and architectures, I’ve mainly built products and platforms from the ground up using: <strong>Ruby on Rails, Typescript, React, Node.js and Postgres.</strong></P>
             {/* <P>I’m particularly experienced at parachuting into existing setups and getting up to speed quickly.</P> */}
-            <P>I’m particularly experienced in connecting new architectures to legacy systems, to quickly get new versions in front of users.</P>
+            <P className="mb-0">I’m particularly experienced in connecting new architectures to legacy systems, to quickly get new versions in front of users.</P>
           </article>
           <aside className="md:flex-1 md:sticky md:top-8">
-            <div className="flex flex-wrap items-center gap-x-5 gap-y-3 mb-12">
+            {/* <div className="flex flex-wrap items-center gap-x-5 gap-y-3 mb-12">
               <PHE />
               <Greenpixie />
               <InCase />
               <Boxmove />
               <Image src={Bankuet} alt="Bankuet logo" className="w-[107px] h-full mb-5" />
               <Image src={Habitude} alt="Habitude logo" className="w-[119px] h-full" />
-            </div>
+            </div> */}
             <H2>Availability</H2>
             <P className="mb-4">🟢 Short-term freelance/consultancy.</P>
             <P className="mb-4">🟢 <strong>Free 1-hour consultancy sessions</strong> on technical architecture, AWS, or marketing automation. <A href="#">Book a call</A></P>
