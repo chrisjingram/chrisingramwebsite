@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Source_Code_Pro } from "next/font/google";
+import { config } from '@fortawesome/fontawesome-svg-core'
+config.autoAddCss = false
+
 import "./globals.css";
+import '@fortawesome/fontawesome-svg-core/styles.css'
 
 const sourceCodePro = Source_Code_Pro({ subsets: ["latin"] });
 

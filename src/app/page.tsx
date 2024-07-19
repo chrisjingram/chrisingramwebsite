@@ -8,6 +8,9 @@ import Boxmove from "../svg/boxmove.svg";
 import Bankuet from "../images/bankuet.png";
 import Habitude from "../images/habitude.png";
 import cx from "classnames";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faLinkedin, faSquareTwitter, faTwitter, IconDefinition } from "@fortawesome/free-brands-svg-icons";
+import { faAt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const P: React.FC<{ className?: string, children?: ReactNode }> = ({className, children}) => <p className={cx("text-base md:text-lg m-0 mb-4", className)}>{children}</p>
 const H2: React.FC<{ children?: ReactNode }> = ({children}) => <h2 className="text-base md:text-lg mb-4 text-bright-purple font-bold">{children}</h2>
@@ -27,6 +30,15 @@ const HelpItem: React.FC<{ title: string, children?: ReactNode }> = ({ title, ch
   </li>
 )
 
+const GetInTouchItem: React.FC<{ icon: IconDefinition, name: string, url: string }> = ({ icon, name, url }) => (
+  <li className="flex items-center">
+    <FontAwesomeIcon icon={icon} className="w-6 !h-auto mr-2 text-slate-700" />
+    <div className="flex-1 text-base">
+      <a href={url}>{name}</a>
+    </div>
+  </li>
+)
+
 export default function Home() {
   return (
     <div className="px-6">
@@ -42,7 +54,6 @@ export default function Home() {
         </header>
         <main className="flex flex-col md:flex-row">
           <article className="md:w-[56%] mr-20">
-            <P>Hey 👋</P>
             <P>I’m an entrepreneur and software engineer based in London, UK. Since 2015 I’ve built digital products and led technical teams at early-stage startups.</P>
             <P>I’ve been coding since I was 12, when I built my first website and online game, SquaresGame, using Macromedia Flash MX and PHP 4  ❤️️</P>
             <H2>What do you do?</H2>
@@ -85,7 +96,7 @@ export default function Home() {
             <P>With experience in many languages and architectures, I’ve mainly built products and platforms from the ground up using: <strong>Ruby on Rails, Typescript, React, Node.js and Postgres.</strong></P>
             <P>I’m particularly experienced at parachuting into existing setups and getting up to speed quickly.</P>
           </article>
-          <aside className="md:flex-1">
+          <aside className="md:flex-1 md:sticky md:top-0">
             <div className="flex flex-wrap items-center gap-x-5 gap-y-3 mb-12">
               <PHE />
               <Greenpixie />
@@ -94,11 +105,15 @@ export default function Home() {
               <Image src={Bankuet} alt="Bankuet logo" className="w-[107px] h-full mb-5" />
               <Image src={Habitude} alt="Habitude logo" className="w-[119px] h-full" />
             </div>
-            <P className="mb-6">🆓 I’m currently providing <strong>free 1-hour consultancy sessions</strong> on technical architecture, AWS, or marketing automation.</P>
+            <P className="mb-6">🚨 I’m currently providing <strong>free 1-hour consultancy sessions</strong> on technical architecture, AWS, or marketing automation.</P>
             <P className="mb-6"><button className="bg-bright-purple hover:bg-bright-purple-light transition-colors duration-200 text-white rounded-md px-4 py-0.5">Book here &rarr;</button></P>
             <P>🗓️ I also currently have <strong>availability for software engineering projects.</strong></P>
-
-
+            <H2>Get in touch ⬇️</H2>
+            <ul className="space-y-1">
+              <GetInTouchItem icon={faLinkedin} name="chris-james-ingram" url="https://www.linkedin.com/in/chris-james-ingram/" />
+              <GetInTouchItem icon={faSquareTwitter} name="chrisjingram" url="https://twitter.com/chrisjingram" />
+              <GetInTouchItem icon={faAt} name="chris@chrisingram.me" url="mailto:chris@chrisingram.me" />
+            </ul>
           </aside>
         </main>
       </div>
