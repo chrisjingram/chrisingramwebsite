@@ -1,6 +1,7 @@
 import { AnchorHTMLAttributes, ReactNode } from "react";
 import Image from "next/image";
 import meCircle from "../../public/images/me-circle.png";
+import PHE from "../svg/phe.svg";
 
 const P: React.FC<{ children?: ReactNode }> = ({children}) => <p className="text-base md:text-lg m-0 mb-4">{children}</p>
 const H2: React.FC<{ children?: ReactNode }> = ({children}) => <h2 className="text-base md:text-lg mb-4 text-bright-purple font-bold">{children}</h2>
@@ -79,6 +80,9 @@ export default function Home() {
             <P>I’m particularly experienced at parachuting into existing setups and getting up to speed quickly.</P>
           </article>
           <aside className="md:flex-1">
+            <div>
+              <PHE />
+            </div>
             <P>I’m currently providing free 1-hour consultancy sessions on technical architecture, AWS, or marketing automation.</P>
           </aside>
         </main>
