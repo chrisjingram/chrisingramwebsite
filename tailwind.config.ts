@@ -10,7 +10,8 @@ const config: Config = {
     extend: {
       colors: {
         "bright-purple": {
-          DEFAULT: "#1F00DE"
+          DEFAULT: "#1F00DE",
+          light: "#472EE4"
         },
         "bright-green": {
           DEFAULT: "#1CD45B"
