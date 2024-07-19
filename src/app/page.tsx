@@ -13,7 +13,7 @@ import { faLinkedin, faSquareTwitter, faTwitter, IconDefinition } from "@fortawe
 import { faAt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const P: React.FC<{ className?: string, children?: ReactNode }> = ({className, children}) => <p className={cx("text-base md:text-lg m-0 mb-4", className)}>{children}</p>
-const H2: React.FC<{ children?: ReactNode }> = ({children}) => <h2 className="text-base md:text-lg mb-4 text-bright-purple font-bold">{children}</h2>
+const H2: React.FC<{ children?: ReactNode }> = ({children}) => <h2 className="text-lg md:text-xl mb-4 text-bright-purple font-bold">{children}</h2>
 const A: React.FC<AnchorHTMLAttributes<HTMLAnchorElement>> = ({children, ...props}) => <a className="text-bright-purple underline hover:text-bright-purple-light transition-colors duration-200" {...props}>{children}</a>
 
 const ExpItem: React.FC<{ companyName: string, tag: string, description: string, url: string }> = ({ companyName, tag, description, url }) => (
@@ -34,7 +34,7 @@ const GetInTouchItem: React.FC<{ icon: IconDefinition, name: string, url: string
   <li className="flex items-center">
     <FontAwesomeIcon icon={icon} className="w-6 !h-auto mr-2 text-slate-700" />
     <div className="flex-1 text-base">
-      <a href={url}>{name}</a>
+      <a target="_blank" href={url}>{name}</a>
     </div>
   </li>
 )
@@ -55,14 +55,14 @@ export default function Home() {
         <main className="flex flex-col md:flex-row items-start">
           <article className="md:w-[56%] mb-8 md:mb-0 md:mr-20">
             <P>I’m an entrepreneur and software engineer based in London, UK. Since 2015 I’ve built digital products and led technical teams at early-stage startups.</P>
-            <P>I’ve been coding since I was 12, when I built my first website and online game, SquaresGame, using Macromedia Flash MX and PHP 4  ❤️️</P>
+            <P className="mb-8">I’ve been coding since I was 12, when I built my first website and online game, SquaresGame, using Macromedia Flash MX and PHP 4  ❤️️</P>
             <H2>What do you do?</H2>
             <P>I co-run <A href="https://basejam.com">Basejam</A>, a platform for finding and booking company retreat venues.</P>
-            <P><strong>I help startups and indie businesses</strong> improve their technical architecture, confidently hire a technical team, and automate their marketing processes.</P>
+            <P className="mb-8"><strong>I help startups and indie businesses</strong> improve their technical architecture, confidently hire a technical team, and automate their marketing processes.</P>
             <H2>Who do you work with?</H2>
-            <P>My freelance clients are usually angel-funded startups or bootstrapped indie businesses.</P>
+            <P className="mb-8">My freelance clients are usually angel-funded startups or bootstrapped indie businesses.</P>
             <H2>Experience</H2>
-            <ul className="list-style-terminal pl-[1ch] space-y-2 mb-4">
+            <ul className="list-style-terminal pl-[1ch] space-y-2 mb-8">
               <ExpItem companyName="Basejam" tag="co-founded" description="The go-to platform for company retreat venues" url="https://basejam.com" />
               <ExpItem companyName="Saint Storage" tag="freelance/contract" description="Summer storage platform for students" url="https://saintstorage.com" />
               <ExpItem companyName="Greenpixie" tag="founding team" description="Carbon measurement for the cloud" url="https://greenpixie.com" />
@@ -91,10 +91,11 @@ export default function Home() {
               </HelpItem>
             </ul>
             <P>If we work together we’ll usually start with an audit of your current setup. Based on your goals, we’ll choose the best way for me to help.</P>
-            <P>I’m currently providing <strong>free 1-hour consultancy</strong> sessions on any of the above areas.</P>
+            <P className="mb-8">I’m currently providing <strong>free 1-hour consultancy</strong> sessions on any of the above areas.</P>
             <H2>Software engineering 🛠️</H2>
             <P>With experience in many languages and architectures, I’ve mainly built products and platforms from the ground up using: <strong>Ruby on Rails, Typescript, React, Node.js and Postgres.</strong></P>
-            <P>I’m particularly experienced at parachuting into existing setups and getting up to speed quickly.</P>
+            {/* <P>I’m particularly experienced at parachuting into existing setups and getting up to speed quickly.</P> */}
+            <P>I’m particularly experienced in connecting new architectures to legacy systems, to quickly get new versions in front of users.</P>
           </article>
           <aside className="md:flex-1 md:sticky md:top-8">
             <div className="flex flex-wrap items-center gap-x-5 gap-y-3 mb-12">
@@ -105,9 +106,12 @@ export default function Home() {
               <Image src={Bankuet} alt="Bankuet logo" className="w-[107px] h-full mb-5" />
               <Image src={Habitude} alt="Habitude logo" className="w-[119px] h-full" />
             </div>
-            <P className="mb-6">🚨 I’m currently providing <strong>free 1-hour consultancy sessions</strong> on technical architecture, AWS, or marketing automation.</P>
-            <P className="mb-6"><button className="bg-bright-purple hover:bg-bright-purple-light transition-colors duration-200 text-white rounded-md px-4 py-0.5">Book here &rarr;</button></P>
-            <P>🗓️ I also currently have <strong>availability for software engineering projects.</strong></P>
+            <H2>Availability</H2>
+            <P className="mb-4">🟢 Short-term freelance/consultancy.</P>
+            <P className="mb-4">🟢 <strong>Free 1-hour consultancy sessions</strong> on technical architecture, AWS, or marketing automation. <A href="#">Book a call</A></P>
+            {/* <P className="mb-8"><button className="bg-bright-purple hover:bg-bright-purple-light transition-colors duration-200 text-white rounded-md px-4 py-0.5">Book here &rarr;</button></P> */}
+            {/* <P>🟢 I also currently have <strong>availability for longer-term software engineering projects.</strong></P> */}
+            <P className="mb-8">🟢 Longer-term software engineering projects.</P>
             <H2>Get in touch ⬇️</H2>
             <ul className="space-y-1">
               <GetInTouchItem icon={faLinkedin} name="chris-james-ingram" url="https://www.linkedin.com/in/chris-james-ingram/" />
