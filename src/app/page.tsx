@@ -52,8 +52,8 @@ export default function Home() {
             </div>
           </div>
         </header>
-        <main className="flex flex-col md:flex-row">
-          <article className="md:w-[56%] mr-20">
+        <main className="flex flex-col md:flex-row items-start">
+          <article className="md:w-[56%] mb-8 md:mb-0 md:mr-20">
             <P>I’m an entrepreneur and software engineer based in London, UK. Since 2015 I’ve built digital products and led technical teams at early-stage startups.</P>
             <P>I’ve been coding since I was 12, when I built my first website and online game, SquaresGame, using Macromedia Flash MX and PHP 4  ❤️️</P>
             <H2>What do you do?</H2>
@@ -96,7 +96,7 @@ export default function Home() {
             <P>With experience in many languages and architectures, I’ve mainly built products and platforms from the ground up using: <strong>Ruby on Rails, Typescript, React, Node.js and Postgres.</strong></P>
             <P>I’m particularly experienced at parachuting into existing setups and getting up to speed quickly.</P>
           </article>
-          <aside className="md:flex-1 md:sticky md:top-0">
+          <aside className="md:flex-1 md:sticky md:top-8">
             <div className="flex flex-wrap items-center gap-x-5 gap-y-3 mb-12">
               <PHE />
               <Greenpixie />
