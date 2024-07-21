@@ -57,7 +57,7 @@ export default function Home() {
             <P>I’m an entrepreneur and software engineer based in London, UK. Since 2015 I’ve built digital products and led technical teams at early-stage startups.</P>
             <P className="mb-8">I’ve been coding since I was 12, when I built my first website and online game, SquaresGame, using Macromedia Flash MX and PHP 4  ❤️️</P>
             <H2>What do you do?</H2>
-            <P>I co-run <A href="https://basejam.com">Basejam</A>, a platform for finding and booking company retreat venues.</P>
+            <P>I co-run <A href="https://basejam.com">Basejam</A>, a platform for booking the best company retreat venues across Europe.</P>
             <P className="mb-8"><strong>I help startups and indie businesses</strong> improve their technical architecture, confidently hire a technical team, and automate their marketing processes.</P>
             <H2>Who do you work with?</H2>
             <P className="mb-8">My freelance clients are usually angel-funded startups or bootstrapped indie businesses.</P>
@@ -74,8 +74,9 @@ export default function Home() {
             </ul>
             <H2>How I can help 🚀</H2>
             <ul className="list-style-terminal pl-[1ch] space-y-2 mb-4">
-              <HelpItem title="Technical architecture">
-                <p className="font-normal">Reaching the limits of your no-code platform? Or just unsure on the best next step? I help clients to plan and execute their vision, without over-engineering.</p>
+              <HelpItem title="Technical architecture and direction">
+                {/* <p className="font-normal">Reaching the limits of your no-code platform? Or just unsure on the best next step? I help clients to plan and execute their vision, without over-engineering.</p> */}
+                <p className="font-normal">Plans for your next major release, but unsure how to get there? I help clients plan what tech they need, what they don't, and how to pull it all together.</p>
               </HelpItem>
               <HelpItem title="AWS for startups">
                 <p className="font-normal">Diagnose issues, connect to external platforms, improve reliability, reduce unnecessary costs.</p>
@@ -84,16 +85,16 @@ export default function Home() {
                 <p className="font-normal">Help hiring the right people for an initial technical team.</p>
               </HelpItem>
               <HelpItem title="Marketing automation">
-                <p className="font-normal">Writing and running highly targeted cold email campaigns and follow ups.</p>
+                <p className="font-normal">Writing and running highly targeted cold email campaigns and follow ups. Automated and personalised client communication.</p>
               </HelpItem>
               <HelpItem title="Automation of internal processes">
-                <p className="font-normal">Calendar full of recurring manual tasks? Let’s write some scripts to automate that.</p>
+                <p className="font-normal">Calendar full of recurring manual tasks? Let’s write some automated scripts.</p>
               </HelpItem>
             </ul>
             <P>If we work together we’ll usually start with an audit of your current setup. Based on your goals, we’ll choose the best way for me to help.</P>
-            <P className="mb-8">I’m currently providing <strong>free 1-hour consultancy</strong> sessions on any of the above areas.</P>
+            <P className="mb-8">I’m currently providing <strong>free 1-hour consultancy</strong> sessions on any of the above areas. <A href="#">Book a call.</A></P>
             <H2>Software engineering 🛠️</H2>
-            <P>With experience in many languages and architectures, I’ve mainly built products and platforms from the ground up using: <strong>Ruby on Rails, Typescript, React, Node.js and Postgres.</strong></P>
+            <P>I have experience in many languages and architectures. I lean towards the following technologies: <strong>Ruby on Rails, Typescript, React, Node.js and Postgres.</strong></P>
             {/* <P>I’m particularly experienced at parachuting into existing setups and getting up to speed quickly.</P> */}
             <P className="mb-0">I’m particularly experienced in connecting new architectures to legacy systems, to quickly get new versions in front of users.</P>
           </article>
@@ -112,7 +113,7 @@ export default function Home() {
             {/* <P className="mb-8"><button className="bg-bright-purple hover:bg-bright-purple-light transition-colors duration-200 text-white rounded-md px-4 py-0.5">Book here &rarr;</button></P> */}
             {/* <P>🟢 I also currently have <strong>availability for longer-term software engineering projects.</strong></P> */}
             <P className="mb-8">🟢 Longer-term software engineering projects</P>
-            <H2>Get in touch ⬇️</H2>
+            <H2>Stay in touch ⬇️</H2>
             <ul className="space-y-1">
               <GetInTouchItem icon={faLinkedin} name="chris-james-ingram" url="https://www.linkedin.com/in/chris-james-ingram/" />
               <GetInTouchItem icon={faSquareTwitter} name="chrisjingram" url="https://twitter.com/chrisjingram" />
