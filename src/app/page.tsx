@@ -92,7 +92,7 @@ export default function Home() {
               </HelpItem>
             </ul>
             <P>If we work together we'll usually start with an audit of your current setup. Based on your goals, we'll choose the best way for me to help.</P>
-            <P className="mb-8">I'm currently providing <strong>free 1-hour consultancy</strong> sessions on any of the above areas. <A href="#">Book a call.</A></P>
+            <P className="mb-8">I'm currently providing <strong>free 1-hour consultancy</strong> sessions on any of the above areas. <A href="https://calendly.com/chris-james-ingram/1-hour-free-consultancy" target="_blan">Book a call.</A></P>
             <H2>Software engineering 🛠️</H2>
             <P>I have experience in many languages and architectures. I lean towards the following technologies: <strong>Ruby on Rails, Typescript, React, Node.js and Postgres.</strong></P>
             {/* <P>I’m particularly experienced at parachuting into existing setups and getting up to speed quickly.</P> */}
@@ -109,7 +109,7 @@ export default function Home() {
             </div> */}
             <H2>Availability</H2>
             <P className="mb-4">🟢 Short-term freelance/consultancy</P>
-            <P className="mb-4">🟢 <strong>Free 1-hour consultancy sessions</strong> on technical architecture, AWS, or marketing automation. <A href="#">Book a call</A></P>
+            <P className="mb-4">🟢 <strong>Free 1-hour consultancy sessions</strong> on technical architecture, AWS, or marketing automation. <A href="https://calendly.com/chris-james-ingram/1-hour-free-consultancy" target="_blank">Book a call</A></P>
             {/* <P className="mb-8"><button className="bg-bright-purple hover:bg-bright-purple-light transition-colors duration-200 text-white rounded-md px-4 py-0.5">Book here &rarr;</button></P> */}
             {/* <P>🟢 I also currently have <strong>availability for longer-term software engineering projects.</strong></P> */}
             <P className="mb-8">🟢 Longer-term software engineering projects</P>
