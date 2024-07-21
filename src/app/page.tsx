@@ -54,8 +54,8 @@ export default function Home() {
         </header>
         <main className="flex flex-col md:flex-row items-start">
           <article className="md:w-[56%] mb-8 md:mb-0 md:mr-20">
-            <P>I’m an entrepreneur and software engineer based in London, UK. Since 2015 I’ve built digital products and led technical teams at early-stage startups.</P>
-            <P className="mb-8">I’ve been coding since I was 12, when I built my first website and online game, SquaresGame, using Macromedia Flash MX and PHP 4  ❤️️</P>
+            <P>I'm an entrepreneur and software engineer based in London, UK. Since 2015 I've built digital products and led technical teams at early-stage startups.</P>
+            <P className="mb-8">I've been coding since I was 12, when I built my first website and online game, SquaresGame, using Macromedia Flash MX and PHP 4  ❤️️</P>
             <H2>What do you do?</H2>
             <P>I co-run <A href="https://basejam.com">Basejam</A>, a platform for booking the best company retreat venues across Europe.</P>
             <P className="mb-8"><strong>I help startups and indie businesses</strong> improve their technical architecture, confidently hire a technical team, and automate their marketing processes.</P>
@@ -88,15 +88,15 @@ export default function Home() {
                 <p className="font-normal">Writing and running highly targeted cold email campaigns and follow ups. Automated and personalised client communication.</p>
               </HelpItem>
               <HelpItem title="Automation of internal processes">
-                <p className="font-normal">Calendar full of recurring manual tasks? Let’s write some automated scripts.</p>
+                <p className="font-normal">Calendar full of recurring manual tasks? Let's write some automated scripts.</p>
               </HelpItem>
             </ul>
-            <P>If we work together we’ll usually start with an audit of your current setup. Based on your goals, we’ll choose the best way for me to help.</P>
-            <P className="mb-8">I’m currently providing <strong>free 1-hour consultancy</strong> sessions on any of the above areas. <A href="#">Book a call.</A></P>
+            <P>If we work together we'll usually start with an audit of your current setup. Based on your goals, we'll choose the best way for me to help.</P>
+            <P className="mb-8">I'm currently providing <strong>free 1-hour consultancy</strong> sessions on any of the above areas. <A href="#">Book a call.</A></P>
             <H2>Software engineering 🛠️</H2>
             <P>I have experience in many languages and architectures. I lean towards the following technologies: <strong>Ruby on Rails, Typescript, React, Node.js and Postgres.</strong></P>
             {/* <P>I’m particularly experienced at parachuting into existing setups and getting up to speed quickly.</P> */}
-            <P className="mb-0">I’m particularly experienced in connecting new architectures to legacy systems, to quickly get new versions in front of users.</P>
+            <P className="mb-0">I'm particularly experienced in connecting new architectures to legacy systems, to quickly get new versions in front of users.</P>
           </article>
           <aside className="md:flex-1 md:sticky md:top-8">
             {/* <div className="flex flex-wrap items-center gap-x-5 gap-y-3 mb-12">
