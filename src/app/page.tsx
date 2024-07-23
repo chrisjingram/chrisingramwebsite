@@ -112,7 +112,7 @@ export default function Home() {
             <P className="mb-4">🟢 <strong>Free 1-hour consultancy sessions</strong> on technical architecture, AWS, or marketing automation. <A href="https://calendly.com/chris-james-ingram/1-hour-free-consultancy" target="_blank">Book a call</A></P>
             {/* <P className="mb-8"><button className="bg-bright-purple hover:bg-bright-purple-light transition-colors duration-200 text-white rounded-md px-4 py-0.5">Book here &rarr;</button></P> */}
             {/* <P>🟢 I also currently have <strong>availability for longer-term software engineering projects.</strong></P> */}
-            <P className="mb-8">🟢 Longer-term software engineering projects</P>
+            <P className="mb-8">🟡 Software engineering projects (2 days per week)</P>
             <H2>Stay in touch ⬇️</H2>
             <ul className="space-y-1">
               <GetInTouchItem icon={faLinkedin} name="chris-james-ingram" url="https://www.linkedin.com/in/chris-james-ingram/" />
