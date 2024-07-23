@@ -70,7 +70,7 @@ export default function Home() {
               <ExpItem companyName="MadeBySphere" tag="co-founded" description="Ecommerce design and build agency" url="https://madebysphere.com" />
               <ExpItem companyName="Boxmove" tag="freelance/contract" description="Ecommerce platform for charity shops" url="https://boxmove.com" />
               <ExpItem companyName="inCase" tag="senior engineer" description="White-label client communication app for law firms" url="https://in-case.co.uk" />
-              <ExpItem companyName="Public Health England" tag="software engineer" description="Active10 walking app for government health initiative with University of Sheffield" url="https://apps.apple.com/gb/app/nhs-active-10-walking-tracker/id1204295312" />
+              <ExpItem companyName="Public Health England" tag="software engineer" description="Active10 walking app for government health initiative with the University of Sheffield" url="https://apps.apple.com/gb/app/nhs-active-10-walking-tracker/id1204295312" />
             </ul>
             <H2>How I can help 🚀</H2>
             <ul className="list-style-terminal pl-[1ch] space-y-2 mb-4">
@@ -79,13 +79,13 @@ export default function Home() {
                 <p className="font-normal">Plans for your next major release, but unsure how to get there? I help clients plan what tech they need, what they don't, and how to pull it all together.</p>
               </HelpItem>
               <HelpItem title="AWS for startups">
-                <p className="font-normal">Diagnose issues, connect to external platforms, improve reliability, reduce unnecessary costs.</p>
+                <p className="font-normal">Diagnose issues, connect to external platforms, improve reliability, and reduce unnecessary costs.</p>
               </HelpItem>
               <HelpItem title="Building an initial technical team">
                 <p className="font-normal">Help hiring the right people for an initial technical team.</p>
               </HelpItem>
               <HelpItem title="Marketing automation">
-                <p className="font-normal">Writing and running highly targeted cold email campaigns and follow ups. Automated and personalised client communication. All tech/automation included.</p>
+                <p className="font-normal">Writing and running highly targeted cold email campaigns and follow-ups. Automated and personalised client communication. All tech/automation included.</p>
               </HelpItem>
               <HelpItem title="Automation of internal processes">
                 <p className="font-normal">Calendar full of recurring manual tasks? Let's write some automated scripts.</p>
