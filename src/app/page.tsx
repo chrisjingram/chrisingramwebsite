@@ -85,7 +85,7 @@ export default function Home() {
                 <p className="font-normal">Help hiring the right people for an initial technical team.</p>
               </HelpItem>
               <HelpItem title="Marketing automation">
-                <p className="font-normal">Writing and running highly targeted cold email campaigns and follow ups. Automated and personalised client communication.</p>
+                <p className="font-normal">Writing and running highly targeted cold email campaigns and follow ups. Automated and personalised client communication. All tech/automation included.</p>
               </HelpItem>
               <HelpItem title="Automation of internal processes">
                 <p className="font-normal">Calendar full of recurring manual tasks? Let's write some automated scripts.</p>
@@ -96,7 +96,7 @@ export default function Home() {
             <H2>Software engineering 🛠️</H2>
             <P>I have experience in many languages and architectures. I lean towards the following technologies: <strong>Ruby on Rails, Typescript, React, Node.js and Postgres.</strong></P>
             {/* <P>I’m particularly experienced at parachuting into existing setups and getting up to speed quickly.</P> */}
-            <P className="mb-0">I'm particularly experienced in connecting new architectures to legacy systems, to quickly get new versions in front of users.</P>
+            <P className="mb-0">I'm particularly experienced in connecting new architectures to legacy systems, to quickly put new versions in front of users.</P>
           </article>
           <aside className="md:flex-1 md:sticky md:top-8">
             {/* <div className="flex flex-wrap items-center gap-x-5 gap-y-3 mb-12">
