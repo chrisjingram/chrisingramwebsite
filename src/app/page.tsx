@@ -74,15 +74,21 @@ export default function Home() {
             </ul>
             <H2>How I can help 🚀</H2>
             <ul className="list-style-terminal pl-[1ch] space-y-2 mb-4">
-              <HelpItem title="Technical architecture and direction">
+              <HelpItem title="Technical architecture and prioritisation">
                 {/* <p className="font-normal">Reaching the limits of your no-code platform? Or just unsure on the best next step? I help clients to plan and execute their vision, without over-engineering.</p> */}
-                <p className="font-normal">Plans for your next major release, but unsure how to get there? I help clients plan what tech they need, what they don't, and how to pull it all together.</p>
+                <p className="font-normal">Finding the most efficient route to product goals. I help clients plan what tech they need, what they don't, and how to pull it all together.</p>
               </HelpItem>
-              <HelpItem title="AWS for startups">
-                <p className="font-normal">Diagnose issues, connect to external platforms, improve reliability, and reduce unnecessary costs.</p>
+              <HelpItem title="DevOps">
+                <p className="font-normal">Deployment processes, CI/CD, testing processes, infrastructure-as-code.</p>
+              </HelpItem>
+              <HelpItem title="AWS">
+                <p className="font-normal">Diagnose issues, improve scaling/reliability, connect to external platforms and reduce costs.</p>
+              </HelpItem>
+              <HelpItem title="Security">
+                <p className="font-normal">Identifying potential threats, and building a culture of security across the team.</p>
               </HelpItem>
               <HelpItem title="Building an initial technical team">
-                <p className="font-normal">Help hiring the right people for an initial technical team.</p>
+                <p className="font-normal">Building and executing interview processes and technical tests.</p>
               </HelpItem>
               <HelpItem title="Marketing automation">
                 <p className="font-normal">Writing and running highly targeted cold email campaigns and follow-ups. Automated and personalised client communication. All tech/automation included.</p>
