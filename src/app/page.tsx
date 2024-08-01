@@ -48,19 +48,21 @@ export default function Home() {
             <Image src={meCircle} alt="Profile picture for Chris Ingram" className="w-[96px] md:w-[124px] mr-5" />
             <div className="">
               <h1 className="font-extrabold text-2xl md:text-3xl">Chris Ingram</h1>
-              <p className="text-base md:text-xl">Entrepreneur & full-stack engineer</p>
+              <p className="text-base md:text-xl">Fractional CTO & Founder</p>
             </div>
           </div>
         </header>
         <main className="flex flex-col md:flex-row items-start">
           <article className="md:w-[56%] mb-8 md:mb-0 md:mr-20">
-            <P>I'm an entrepreneur and software engineer based in London, UK. Since 2015 I've built digital products and led technical teams at early-stage startups.</P>
+            <P>Founder and fractional CTO based in London, UK.</P>
+            {/* <P>2x founder, 1x founding-team. Since 2015 I've led the build of five products, used by a combined 700K people. All from the first line of code to release.</P> */}
+            <P>2x founder, 1x founding-team. Since 2015 I've led the build of five products, from first lines of code to 10K users.</P>
             <P className="mb-8">I've been coding since I was 12, when I built my first website and online game, SquaresGame, using Macromedia Flash MX and PHP 4  ❤️️</P>
             <H2>What do you do?</H2>
             <P>I co-run <A href="https://basejam.com">Basejam</A>, a platform for booking the best company retreat venues across Europe.</P>
-            <P className="mb-8"><strong>I help startups and indie businesses</strong> improve their technical architecture, confidently hire a technical team, and automate their marketing processes.</P>
+            <P className="mb-8"><strong>I help startups and indie businesses</strong> nail their technical architecture, build effectively, confidently hire a technical team, and automate their marketing processes.</P>
             <H2>Who do you work with?</H2>
-            <P className="mb-8">My freelance clients are usually angel-funded startups or bootstrapped indie businesses.</P>
+            <P className="mb-8">My clients are usually funded startups or profitable indie businesses.</P>
             <H2>Experience</H2>
             <ul className="list-style-terminal pl-[1ch] space-y-2 mb-8">
               <ExpItem companyName="Basejam" tag="co-founded" description="The go-to platform for company retreat venues" url="https://basejam.com" />
@@ -102,7 +104,7 @@ export default function Home() {
             <H2>Software engineering 🛠️</H2>
             <P>I have experience in many languages and architectures. I lean towards the following technologies: <strong>Ruby on Rails, Typescript, React, Node.js and Postgres.</strong></P>
             {/* <P>I’m particularly experienced at parachuting into existing setups and getting up to speed quickly.</P> */}
-            <P className="mb-0">I'm particularly experienced in connecting new architectures to legacy systems, to quickly put new versions in front of users.</P>
+            <P className="mb-0">I'm particularly experienced in connecting new architectures to legacy products, to quickly put new versions in front of users.</P>
           </article>
           <aside className="md:flex-1 md:sticky md:top-8">
             {/* <div className="flex flex-wrap items-center gap-x-5 gap-y-3 mb-12">
@@ -115,10 +117,11 @@ export default function Home() {
             </div> */}
             <H2>Availability</H2>
             <P className="mb-4">🟢 Short-term freelance/consultancy</P>
+            <P className="mb-4">🟢 Fractional CTO consultancy</P>
             <P className="mb-4">🟢 <strong>Free 1-hour consultancy sessions</strong> on technical architecture, AWS, or marketing automation. <A href="https://calendly.com/chris-james-ingram/1-hour-free-consultancy" target="_blank">Book a call</A></P>
             {/* <P className="mb-8"><button className="bg-bright-purple hover:bg-bright-purple-light transition-colors duration-200 text-white rounded-md px-4 py-0.5">Book here &rarr;</button></P> */}
             {/* <P>🟢 I also currently have <strong>availability for longer-term software engineering projects.</strong></P> */}
-            <P className="mb-8">🟡 Software engineering projects (2 days per week)</P>
+            {/* <P className="mb-8">🟡 Software engineering projects (2 days per week)</P> */}
             <H2>Stay in touch ⬇️</H2>
             <ul className="space-y-1">
               <GetInTouchItem icon={faLinkedin} name="chris-james-ingram" url="https://www.linkedin.com/in/chris-james-ingram/" />
