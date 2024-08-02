@@ -54,10 +54,15 @@ export default function Home() {
         </header>
         <main className="flex flex-col md:flex-row items-start">
           <article className="md:w-[56%] mb-8 md:mb-0 md:mr-20">
-            <P>Founder and fractional CTO based in London, UK.</P>
+            <P>Founder, fractional CTO and software engineer based in London, UK.</P>
             {/* <P>2x founder, 1x founding-team. Since 2015 I've led the build of five products, used by a combined 700K people. All from the first line of code to release.</P> */}
-            <P>2x founder, 1x founding-team. Since 2015 I've led the build of five products, from first lines of code to 10K users.</P>
-            <P className="mb-8">I've been coding since I was 12, when I built my first website and online game, SquaresGame, using Macromedia Flash MX and PHP 4  ❤️️</P>
+            {/* <P>2x founder, 1x founding-team. Since 2015 I've led the build of 5 products, from first lines of code to 10K users.</P>
+            <P>2x founder, 1x founding-team. Since 2015 I've led the build of 5 products, from first lines of code to traffic spikes.</P>
+            <P>2x founder, 1x founding-team. Since 2015 I've led the build of 5 products, from first lines of code to onboarding users.</P>
+            <P>2x founder, 1x founding-team. Since 2015 I've led the build of 5 products. From first lines of code to 500K users.</P>
+            <P>2x founder, 1x founding-team. Since 2015 I've led the build of 5 products. From first lines of code to 10K users.</P> */}
+            <P>2x founder, 1x founding-team. Since 2015 I've led the build 7 products. From first lines of code to bulletproof deployment.</P>
+            <P className="mb-8">I started coding when I was 12, when I built my first website and online game, SquaresGame, using Macromedia Flash MX and PHP 4  ❤️️</P>
             <H2>What do you do?</H2>
             <P>I co-run <A href="https://basejam.com">Basejam</A>, a platform for booking the best company retreat venues across Europe.</P>
             <P className="mb-8"><strong>I help startups and indie businesses</strong> nail their technical architecture, build effectively, confidently hire a technical team, and automate their marketing processes.</P>
