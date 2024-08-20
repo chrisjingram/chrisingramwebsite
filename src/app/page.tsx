@@ -61,13 +61,13 @@ export default function Home() {
             <P>2x founder, 1x founding-team. Since 2015 I've led the build of 5 products, from first lines of code to onboarding users.</P>
             <P>2x founder, 1x founding-team. Since 2015 I've led the build of 5 products. From first lines of code to 500K users.</P>
             <P>2x founder, 1x founding-team. Since 2015 I've led the build of 5 products. From first lines of code to 10K users.</P> */}
-            <P>2x founder, 1x founding-team. Since 2015 I've led the build and deployment of 7 products.</P>
+            {/* <P>2x founder, 1x founding-team. Since 2015 I've led the build and deployment of 7 products.</P> */}
             <P className="mb-8">I started coding when I was 12, when I built my first website and online game, SquaresGame, using Macromedia Flash MX and PHP 4  ❤️️</P>
             <H2>What do you do?</H2>
             <P>I co-run <A href="https://basejam.com">Basejam</A>, a platform for booking the best company retreat venues across Europe.</P>
             <P className="mb-8"><strong>I help startups and indie businesses</strong> nail their technical architecture, build products effectively and automate their marketing processes.</P>
-            <H2>Who do you work with?</H2>
-            <P className="mb-8">My clients are usually funded startups or profitable indie businesses.</P>
+            {/* <H2>Who do you work with?</H2>
+            <P className="mb-8">My clients are usually funded startups or profitable indie businesses.</P> */}
             <H2>Experience</H2>
             <ul className="list-style-terminal pl-[1ch] space-y-2 mb-8">
               <ExpItem companyName="Basejam" tag="co-founded" description="The go-to platform for company retreat venues" url="https://basejam.com" />
