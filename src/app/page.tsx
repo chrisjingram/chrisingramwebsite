@@ -123,7 +123,6 @@ export default function Home() {
             </div> */}
             <H2>Availability</H2>
             <P className="mb-4">🟢 Freelance software engineering</P>
-            <P className="mb-4">🟢 Fractional CTO consultancy</P>
             <P className="mb-4">🟢 <strong>Free 1-hour consultancy sessions</strong> on technical architecture, AWS, or marketing automation. <A href="https://calendly.com/chris-james-ingram/1-hour-free-consultancy" target="_blank">Book a call</A></P>
             {/* <P className="mb-8"><button className="bg-bright-purple hover:bg-bright-purple-light transition-colors duration-200 text-white rounded-md px-4 py-0.5">Book here &rarr;</button></P> */}
             {/* <P>🟢 I also currently have <strong>availability for longer-term software engineering projects.</strong></P> */}
