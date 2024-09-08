@@ -48,13 +48,13 @@ export default function Home() {
             <Image src={meCircle} alt="Profile picture for Chris Ingram" className="w-[96px] md:w-[124px] mr-5" />
             <div className="">
               <h1 className="font-extrabold text-2xl md:text-3xl">Chris Ingram</h1>
-              <p className="text-base md:text-xl">Founder & Software Engineer</p>
+              <p className="text-base md:text-xl">Software Engineer</p>
             </div>
           </div>
         </header>
         <main className="flex flex-col md:flex-row items-start">
           <article className="md:w-[57%] mb-8 md:mb-0 md:mr-20">
-            <P>Founder and freelance software engineer based in London, UK.</P>
+            <P>Full-stack software engineer and indie-founder based in London, UK.</P>
             {/* <P>2x founder, 1x founding-team. Since 2015 I've led the build of five products, used by a combined 700K people. All from the first line of code to release.</P> */}
             {/* <P>2x founder, 1x founding-team. Since 2015 I've led the build of 5 products, from first lines of code to 10K users.</P>
             <P>2x founder, 1x founding-team. Since 2015 I've led the build of 5 products, from first lines of code to traffic spikes.</P>
@@ -63,9 +63,9 @@ export default function Home() {
             <P>2x founder, 1x founding-team. Since 2015 I've led the build of 5 products. From first lines of code to 10K users.</P> */}
             {/* <P>2x founder, 1x founding-team. Since 2015 I've led the build and deployment of 7 products.</P> */}
             <P className="mb-8">I started coding when I was 12, when I built my first website and online game, SquaresGame, using Macromedia Flash MX and PHP 4  ❤️️</P>
-            <H2>What do you do?</H2>
-            <P>I co-run <A href="https://basejam.com">Basejam</A>, a platform for booking the best company retreat venues across Europe.</P>
-            <P className="mb-8"><strong>I help startups and indie businesses</strong> nail their technical architecture, build products effectively and automate their marketing processes.</P>
+            {/* <H2>What do you do?</H2>
+            <P>I co-run <A href="https://basejam.com">Basejam</A>, a platform for booking the best company retreat venues across Europe.</P> */}
+            {/* <P className="mb-8"><strong>I help startups and indie businesses</strong> nail their technical architecture, build products effectively and automate their marketing processes.</P> */}
             {/* <H2>Who do you work with?</H2>
             <P className="mb-8">My clients are usually funded startups or profitable indie businesses.</P> */}
             <H2>Experience</H2>
@@ -105,8 +105,8 @@ export default function Home() {
                 <p className="font-normal">Writing and running highly targeted cold email campaigns and follow-ups. Automated and personalised client communication. All tech/automation included.</p>
               </HelpItem>
             </ul>
-            <P>If we work together we'll usually start with an audit of your current setup. Based on your goals, we'll choose the best way for me to help.</P>
-            <P className="mb-8">I'm currently providing <strong>free 1-hour consultancy</strong> sessions on any of the above areas. <A href="https://calendly.com/chris-james-ingram/1-hour-free-consultancy" target="_blan">Book a call.</A></P>
+            {/* <P>If we work together we'll usually start with an audit of your current setup. Based on your goals, we'll choose the best way for me to help.</P> */}
+            {/* <P className="mb-8">I'm currently providing <strong>free 1-hour consultancy</strong> sessions on any of the above areas. <A href="https://calendly.com/chris-james-ingram/1-hour-free-consultancy" target="_blan">Book a call.</A></P> */}
             <H2>Software engineering 🛠️</H2>
             <P>I have experience in many languages and architectures, with expertise in the following: <strong>Ruby on Rails, Typescript, React, Node.js and Postgres.</strong></P>
             {/* <P>I’m particularly experienced at parachuting into existing setups and getting up to speed quickly.</P> */}
@@ -121,9 +121,9 @@ export default function Home() {
               <Image src={Bankuet} alt="Bankuet logo" className="w-[107px] h-full mb-5" />
               <Image src={Habitude} alt="Habitude logo" className="w-[119px] h-full" />
             </div> */}
-            <H2>Availability</H2>
+            {/* <H2>Availability</H2>
             <P className="mb-4">🟢 Freelance software engineering</P>
-            <P className="mb-4">🟢 <strong>Free 1-hour consultancy sessions</strong> on technical architecture, AWS, or marketing automation. <A href="https://calendly.com/chris-james-ingram/1-hour-free-consultancy" target="_blank">Book a call</A></P>
+            <P className="mb-4">🟢 <strong>Free 1-hour consultancy sessions</strong> on technical architecture, AWS, or marketing automation. <A href="https://calendly.com/chris-james-ingram/1-hour-free-consultancy" target="_blank">Book a call</A></P> */}
             {/* <P className="mb-8"><button className="bg-bright-purple hover:bg-bright-purple-light transition-colors duration-200 text-white rounded-md px-4 py-0.5">Book here &rarr;</button></P> */}
             {/* <P>🟢 I also currently have <strong>availability for longer-term software engineering projects.</strong></P> */}
             {/* <P className="mb-8">🟡 Software engineering projects (2 days per week)</P> */}
