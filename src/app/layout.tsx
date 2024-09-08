@@ -9,7 +9,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 const sourceCodePro = Source_Code_Pro({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Chris Ingram – Entrepreneur & Full-Stack Software Engineer"
+  title: "Chris Ingram – Product-Focused Software Engineer"
 };
 
 export default function RootLayout({
