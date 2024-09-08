@@ -48,7 +48,7 @@ export default function Home() {
             <Image src={meCircle} alt="Profile picture for Chris Ingram" className="w-[96px] md:w-[124px] mr-5" />
             <div className="">
               <h1 className="font-extrabold text-2xl md:text-3xl">Chris Ingram</h1>
-              <p className="text-base md:text-xl">Software Engineer</p>
+              <p className="text-base md:text-xl">Product-Focused Software Engineer</p>
             </div>
           </div>
         </header>
