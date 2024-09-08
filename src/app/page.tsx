@@ -54,7 +54,7 @@ export default function Home() {
         </header>
         <main className="flex flex-col md:flex-row items-start">
           <article className="md:w-[57%] mb-8 md:mb-0 md:mr-20">
-            <P>Full-stack software engineer and indie-founder based in London, UK.</P>
+            <P>Product-focused software engineer based in London, UK.</P>
             {/* <P>2x founder, 1x founding-team. Since 2015 I've led the build of five products, used by a combined 700K people. All from the first line of code to release.</P> */}
             {/* <P>2x founder, 1x founding-team. Since 2015 I've led the build of 5 products, from first lines of code to 10K users.</P>
             <P>2x founder, 1x founding-team. Since 2015 I've led the build of 5 products, from first lines of code to traffic spikes.</P>
@@ -68,7 +68,7 @@ export default function Home() {
             {/* <P className="mb-8"><strong>I help startups and indie businesses</strong> nail their technical architecture, build products effectively and automate their marketing processes.</P> */}
             {/* <H2>Who do you work with?</H2>
             <P className="mb-8">My clients are usually funded startups or profitable indie businesses.</P> */}
-            <H2>Experience</H2>
+            {/* <H2>Experience</H2>
             <ul className="list-style-terminal pl-[1ch] space-y-2 mb-8">
               <ExpItem companyName="Basejam" tag="co-founded" description="The go-to platform for company retreat venues" url="https://basejam.com" />
               <ExpItem companyName="Saint Storage" tag="freelance/contract" description="Summer storage platform for students" url="https://saintstorage.com" />
@@ -78,7 +78,7 @@ export default function Home() {
               <ExpItem companyName="Boxmove" tag="freelance/contract" description="Ecommerce platform for charity shops" url="https://boxmove.com" />
               <ExpItem companyName="inCase" tag="senior engineer" description="White-label client communication app for law firms" url="https://in-case.co.uk" />
               <ExpItem companyName="Public Health England" tag="software engineer" description="Active10 walking app for government health initiative with the University of Sheffield" url="https://apps.apple.com/gb/app/nhs-active-10-walking-tracker/id1204295312" />
-            </ul>
+            </ul> */}
             <H2>How I can help 🚀</H2>
             <ul className="list-style-terminal pl-[1ch] space-y-2 mb-4">
               <HelpItem title="Technical architecture and prioritisation">
